@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (¡NO SUBIR!)
+.env
+.env.local
+.env.*.local
+
+# Backups
+backend/backups/
+
+# Uploads
+backend/uploads/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.idea/
+
+# Logo original
+frontend/logo-original.jpg
+
+# Base de datos local
+*.sql
+pgdata/
